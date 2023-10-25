@@ -1,0 +1,22 @@
+<VAST version="3.0">
+    <Ad id="1">
+        <InLine>
+            <AdSystem>Example Ad System</AdSystem>
+            <AdTitle>Example Ad Title</AdTitle>
+            <Description>Example Ad Description</Description>
+            <Impression id="imp-1">http://example.com/impression1</Impression>
+            <Creatives>
+                <Creative id="1">
+                    <Linear>
+                        <Duration>00:00:30</Duration>
+                        <MediaFiles>
+                            <MediaFile id="1" delivery="progressive" type="video/mp4" width="640" height="360">
+                                https://gcdn.2mdn.net/videoplayback/id/0fff1c12d0de9c3d/itag/309/source/web_video_ads/ctier/L/acao/yes/ip/0.0.0.0/ipbits/0/expire/3795699147/sparams/id,itag,source,ctier,acao,ip,ipbits,expire/signature/2BE9ECEA30AA7C9E56BE32B515D8AA141A58615D.847FFF496DE594E2A6333225CC72470EA61F10B/key/ck2/file/file.mp4
+                            </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
